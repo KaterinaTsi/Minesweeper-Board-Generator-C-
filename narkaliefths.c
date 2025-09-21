@@ -223,8 +223,8 @@ void insertnumbers(int *mpla, int N, int M, int total, FILE *fp)
 													   }
 											       }                                     
 				
-				mpla[j]= count;  // Assign bomb count to cell
-		  }
+				                             mpla[j]= count;  // Assign bomb count to cell
+		     }
 
 // Print result to console and file
 	        if(mpla[j]==10)
@@ -248,6 +248,7 @@ void insertnumbers(int *mpla, int N, int M, int total, FILE *fp)
 	   }
 }
     
+
 
 
 
